@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/npm', [NpmController::class,'index']);
-Route::get('/npm/create', [NpmController::class,'create']);
-Route::post('/npm', [NpmController::class,'store']);
-Route::get('/npm/{npm_id}/edit', [NpmController::class,'edit']);
-Route::put('/npm/{npm_id}', [NpmController::class,'update']);
-Route::delete('/npm/{npm_id}', [NpmController::class,'destroy']);
+Route::get('/21312012', [UasController::class,'index']);
+Route::get('/21312012/create', [UasController::class,'create']);
+Route::post('/21312012', [UasController::class,'store']);
+Route::get('/21312012/{21312012_id}/edit', [UasController::class,'edit']);
+Route::put('/21312012/{21312012_id}', [UasController::class,'update']);
+Route::delete('/21312012/{21312012_id}', [UasController::class,'destroy']);
